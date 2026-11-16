@@ -1,0 +1,118 @@
+# How GPS Works: The Science Behind Finding Your Location
+
+## 1. Introduction
+
+The Global Positioning System (GPS) is a satellite-based navigation system that allows receivers on Earth to estimate their geographic position. It is used in smartphones, cars, aircraft, ships, scientific instruments, and many other technologies.
+
+One interesting fact about GPS is that your phone does not need to send a signal to a satellite to determine its position. Instead, it receives signals transmitted by satellites and uses the information contained in those signals to calculate its location.
+
+But how can a device determine its position using signals from objects orbiting thousands of kilometers above Earth?
+
+## 2. The Basic Principle: Measuring Distance
+
+GPS works by measuring how long a radio signal takes to travel from a satellite to a receiver.
+
+Radio signals travel at approximately the speed of light, which is about 300,000 kilometers per second in a vacuum.
+
+If a signal takes a certain amount of time to reach a receiver, the receiver can estimate the distance between itself and the satellite.
+
+The basic relationship is:
+
+**Distance = Signal Travel Time × Speed of Light**
+
+For example, if a signal takes 0.07 seconds to travel from a satellite to a receiver, the estimated distance is approximately 21,000 kilometers.
+
+However, measuring the distance to only one satellite is not enough to determine an exact location. The receiver needs information from multiple satellites.
+
+## 3. Why Does GPS Need Multiple Satellites?
+
+Imagine that you know you are exactly 20 kilometers away from a particular satellite. Your possible location could be anywhere on an imaginary sphere surrounding that satellite.
+
+If you also know your distance from a second satellite, the possible locations become more limited. The intersection of the two spheres forms a circle.
+
+Adding information from a third satellite reduces the possible locations further.
+
+In a simplified three-dimensional model, signals from at least three satellites can help determine a position if the receiver's clock is perfectly synchronized. In practice, GPS receivers also need to correct their clock offset, so measurements from at least four satellites are normally used to calculate latitude, longitude, altitude, and receiver clock error.
+
+This geometric process is called trilateration.
+
+It is important not to confuse trilateration with triangulation. Trilateration uses measured distances, while triangulation uses angles.
+
+## 4. The Importance of Atomic Clocks
+
+Accurate time measurement is one of the most important parts of GPS.
+
+Because radio signals travel extremely fast, even a tiny timing error can create a large distance error.
+
+For example, an error of just one microsecond can correspond to approximately 300 meters of distance error.
+
+GPS satellites carry highly accurate atomic clocks. These clocks provide precise timing information that allows receivers to estimate signal travel time.
+
+The receiver's own clock is usually less accurate than the atomic clocks on satellites. GPS calculations therefore estimate and correct the receiver's clock error as part of determining its position.
+
+Without accurate timekeeping, GPS would not provide reliable positioning.
+
+## 5. Why GPS Is Not Always Perfect
+
+GPS positioning is affected by several sources of error.
+
+### Atmospheric Delays
+
+GPS signals travel through Earth's atmosphere before reaching a receiver. The ionosphere and troposphere can affect the speed and path of these signals.
+
+These atmospheric effects introduce errors into distance measurements.
+
+### Buildings and Other Obstacles
+
+Tall buildings, mountains, and other structures can block satellite signals.
+
+Signals may also reflect off buildings before reaching a receiver. This phenomenon is called multipath interference. It can cause the receiver to calculate an incorrect distance.
+
+### Satellite Geometry
+
+The relative positions of satellites in the sky affect positioning accuracy.
+
+When satellites are spread across different directions, the receiver can generally calculate its position more reliably. When satellites appear close together in the sky, positioning errors can become larger.
+
+### Receiver Quality
+
+Different GPS receivers have different antennas, processing capabilities, and error-correction techniques.
+
+A professional surveying receiver can achieve much higher accuracy than an ordinary smartphone under suitable conditions.
+
+## 6. GPS and the Internet: Are They Connected?
+
+A common misconception is that GPS requires an internet connection.
+
+The GPS positioning system itself does not require an internet connection. A receiver can calculate its position using satellite signals alone.
+
+However, many smartphone navigation applications use the internet to download maps, traffic information, business locations, and other useful data.
+
+Some phones also use additional positioning technologies, such as Wi-Fi networks and mobile network information, to improve location estimates or make location acquisition faster.
+
+Therefore, GPS positioning and internet-based navigation services are related but different technologies.
+
+## 7. GPS Is Not the Only Global Navigation System
+
+GPS is operated by the United States, but it is not the only satellite navigation system in the world.
+
+Other major global navigation satellite systems include:
+
+- **Galileo:** Developed and operated by the European Union.
+- **GLONASS:** Operated by Russia.
+- **BeiDou:** Developed and operated by China.
+
+These systems are collectively known as Global Navigation Satellite Systems (GNSS).
+
+Modern smartphones often support signals from multiple GNSS constellations. Using more satellites can improve availability and sometimes positioning accuracy.
+
+## 8. Conclusion
+
+GPS is an excellent example of how physics, mathematics, and engineering work together to solve a practical problem.
+
+It combines precise time measurement, radio communication, orbital mechanics, and geometric calculations to estimate a receiver's position on Earth.
+
+The system may appear simple from the user's perspective: open a map and see a location marker. Behind that simple interface, however, there is a complex process involving satellites, atomic clocks, signal processing, and mathematical estimation.
+
+Understanding GPS reveals an important idea: many technologies that seem effortless to use are built on sophisticated scientific and engineering systems.
+
